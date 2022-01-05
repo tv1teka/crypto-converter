@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+table {
+  border-collapse: collapse;
+  display: block;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+.TableCell {
+  border: 1px solid black;
+  padding: 10px;
+  width: 110px;
+  height: 38px;
+}
+.img-cell {
+  width: 30px;
+}
+.icon {
+  width: 25px;
+}
