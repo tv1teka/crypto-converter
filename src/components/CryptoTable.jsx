@@ -4,15 +4,11 @@ import CoinRow from './CoinRow';
 
 function CryptoTable(props) {
     return (
-        <div>
-            <table width="100%">
-                <tbody>
-                    {props.crypto.map(coin =>
-                    <CoinRow key = {props.crypto.name} items={coin}/>
-                    )}
-                </tbody>
-            </table>
-        </div>
+        <table width="100%">
+            <tbody>
+                {props.crypto.map(coin => <CoinRow key={props.crypto.name} items={coin}/>)}
+            </tbody>
+        </table>
     )
 }
 
