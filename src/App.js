@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
 import './App.css';
-import CoinRow from './components/CoinRow';
+import CryptoTable from './components/CryptoTable';
 
 function App() {
 
@@ -27,13 +27,7 @@ function App() {
 
   return (
     <div>
-      <table width="100%">
-      <tbody>
-        {allCoins.map(coin =>
-          <CoinRow items={coin}/>
-        )}
-        </tbody>
-      </table>
+      <CryptoTable crypto = {allCoins}/>
     </div>
   );
 }
