@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cryptocurrency-quotes/static/css/main.0a6513c8.css",
-    "main.js": "/cryptocurrency-quotes/static/js/main.74740061.js",
+    "main.js": "/cryptocurrency-quotes/static/js/main.57430684.js",
     "index.html": "/cryptocurrency-quotes/index.html",
     "main.0a6513c8.css.map": "/cryptocurrency-quotes/static/css/main.0a6513c8.css.map",
-    "main.74740061.js.map": "/cryptocurrency-quotes/static/js/main.74740061.js.map"
+    "main.57430684.js.map": "/cryptocurrency-quotes/static/js/main.57430684.js.map"
   },
   "entrypoints": [
     "static/css/main.0a6513c8.css",
-    "static/js/main.74740061.js"
+    "static/js/main.57430684.js"
   ]
 }
